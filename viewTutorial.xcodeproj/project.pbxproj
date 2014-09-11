@@ -21,6 +21,7 @@
 		AC972EEF19C174370010B1B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC972ED119C174370010B1B9 /* UIKit.framework */; };
 		AC972EF719C174370010B1B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC972EF519C174370010B1B9 /* InfoPlist.strings */; };
 		AC972EF919C174370010B1B9 /* viewTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC972EF819C174370010B1B9 /* viewTutorialTests.m */; };
+		AC972F0419C175D80010B1B9 /* AMGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = AC972F0319C175D80010B1B9 /* AMGrid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		AC972EF419C174370010B1B9 /* viewTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viewTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		AC972EF619C174370010B1B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AC972EF819C174370010B1B9 /* viewTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viewTutorialTests.m; sourceTree = "<group>"; };
+		AC972F0219C175D80010B1B9 /* AMGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGrid.h; sourceTree = "<group>"; };
+		AC972F0319C175D80010B1B9 /* AMGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGrid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				AC972EDF19C174370010B1B9 /* Main.storyboard */,
 				AC972EE219C174370010B1B9 /* AMViewController.h */,
 				AC972EE319C174370010B1B9 /* AMViewController.m */,
+				AC972F0219C175D80010B1B9 /* AMGrid.h */,
+				AC972F0319C175D80010B1B9 /* AMGrid.m */,
 				AC972EE519C174370010B1B9 /* Images.xcassets */,
 				AC972ED419C174370010B1B9 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				AC972EDE19C174370010B1B9 /* AMAppDelegate.m in Sources */,
 				AC972EE419C174370010B1B9 /* AMViewController.m in Sources */,
 				AC972EDA19C174370010B1B9 /* main.m in Sources */,
+				AC972F0419C175D80010B1B9 /* AMGrid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
